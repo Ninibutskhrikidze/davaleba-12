@@ -1,27 +1,206 @@
 /* conteiner */
-.conteiner{}
+.conteiner {
+  width: min(100%, 1440px);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 /* header */
-header{}
-.logo{}
-ul{}
-li{}
-.header_text{}
-.header_right{}
-.button1{}
-.button2{}
+header {
+  background-color: #2E0230;
+  display: flex;
+  padding: 34px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .logo{} */
+ul {
+  display: flex;
+  column-gap: 100px;
+}
+
+li {}
+
+.header_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.first {
+  color: #F30AEA;
+}
+
+.header_right {
+  display: flex;
+  column-gap: 8px;
+}
+
+.button1 {
+  border: 1px solid #F30AEA;
+  width: 84px;
+  height: 42px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.button2 {
+  border: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  background: #F30AEA;
+}
+
+main {
+  background-image: url("../image/Rectangle\ 3.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 912px;
+  align-items: center;
+}
+
 /* section */
-section{}
-h2{}
-.text{}
-.email{}
+section {
+  display: flex;
+  flex-direction: column;
+  background-color: #1C1325CC;
+  border: 1px solid #B052B5C9;
+  padding: 48px 200px;
+  width: 920px;
+  height: 784px;
+  border-radius: 20px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 4px;
+  color: #FFFFFF;
+  text-shadow: 2px 4px 4px #F90CEFB5;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.text {
+  width: 248px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #B052B5;
+  background-color: transparent;
+  padding: 11px 22px;
+}
+
+.email {
+  width: 248px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #B052B5;
+  background-color: transparent;
+  padding: 11px 22px;
+}
+
+.text_article {
+  display: flex;
+  column-gap: 24px;
+}
+
 /* radio */
-h5{}
-.radio_article{}
-.radio{}
-p{}
+h5 {
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.firstH5 {
+  margin: 24px 0px 16px 0px;
+}
+
+.secondH5 {
+  margin: 24px 0px 8px 0px;
+}
+
+.radio_article {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+}
+
+input[type=radio] {
+  border: 2px solid #F30AEAB5;
+  width: 24px;
+  height: 24px;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #B052B5;
+}
+
+/*   
+  (radios da checkbox-s ver gavuge, kide gavimeoreb) */
+
 /* checkbox */
-.textarea{}
-.checkbox_div{}
-.checkbox{}
-span{}
-.button3{}
+.textarea {
+  width: 520px;
+  height: 112px;
+  border-radius: 8px;
+
+  border: 1px solid #B052B5;
+  background-color: transparent;
+}
+
+.checkbox_div {
+  display: flex;
+  column-gap: 16px;
+  margin: 24px 0px 40px 0px;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 2px solid #F30AEA;
+}
+
+span {
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.button3 {
+  background: #F30AEA;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  padding-block: 19px;
+  border-radius: 8px;
+}

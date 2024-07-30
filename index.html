@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="css/laptops.css">
   <link rel="stylesheet" href="css/tablets.css">
   <link rel="stylesheet" href="css/mobiles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
 </head>
 
 <body>
@@ -21,7 +24,7 @@
       <nav>
         <ul>
           <li>
-            <a href="" class="header_text">HOME</a>
+            <a href="" class="header_text first">HOME</a>
           </li>
           <li>
             <a href="" class="header_text">ABOUT</a>
@@ -37,35 +40,39 @@
       </article>
     </header>
     <!-- section -->
-    <section>
-      <h2>CONTACT US</h2>
-      <input class="text" type="text">
-      <input class="email" type="email">
-      <h5>I have a delivery question about my order</h5>
-      <article class="radio_article">
-        <input class="radio" type="radio">
-        <p>I did not receive my order</p>
-      </article>
-      <article class="radio_article">
-        <input class="radio" type="radio">
-        <p>My order is incorrect or arrived damaged</p>
-      </article>
-      <article class="radio_article">
-        <input class="radio" type="radio">
-        <p>Cancel my order</p>
-      </article>
-      <article class="radio_article">
-        <input class="radio" type="radio">
-        <p>Change my shipping address</p>
-      </article>
-      <h5>Please provide more details below.</h5>
-      <input class="textarea" type="textarea">
-      <div class="checkbox_div">
-        <input class="checkbox" type="checkbox">
-        <span>I want to receive the newsletter</span>
-      </div>
-      <button class="button3">SEND</button>
-    </section>
+    <main>
+      <section>
+        <h2>CONTACT US</h2>
+        <article class="text_article">
+          <input class="text" type="text" placeholder="Name">
+          <input class="email" type="email" placeholder="Email">
+        </article>
+
+        <h5 class="firstH5">I have a delivery question about my order</h5>
+        <input type="radio" name="delivery" id="not_receive" value="not_receive">
+        <label>I did not receive my order</label>
+        </article>
+        <input type="radio" name="delivery" id="incorrect" value="incorrect">
+        <label>My order is incorrect or arrived damaged</label>
+        </article>
+        <input type="radio" name="delivery" id="Cancel" value="Cansel">
+        <label>Cancel my order</label>
+        </article>
+        <article class="radio_article">
+          <input type="radio" name="delivery" id="address" value="adderss">
+          <label>Change my shipping address</label>
+        </article>
+        <h5 class="secondH5">Please provide more details below.</h5>
+        <input class="textarea" type="textarea" placeholder="Message">
+        <div class="checkbox_div">
+          <input class="checkbox" type="checkbox">
+          <span>I want to receive the newsletter</span>
+        </div>
+        <button class="button3">SEND</button>
+      </section>
+    </main>
+
   </div>
 </body>
+
 </html>
